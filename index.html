@@ -1,52 +1,74 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>About Me</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
-    </head>
-    <body>
-      <script>
-        console.log("HEY YO!");
-      </script>
-      
-      <!-- example 6 - center on mobile -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="d-flex flex-grow-1">
-      <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
-      <a class="navbar-brand d-none d-lg-inline-block" href="#">
-          Melanie Bostwick
-      </a>
-      <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
-          
-      </a>
-      <div class="w-100 text-right">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-      </div>
-  </div>
-  <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
-      <ul class="navbar-nav ml-auto flex-nowrap">
-          <li class="nav-item">
-              <a href="#" class="nav-link m-2 menu-item">Contact</a>
-          </li>
-          <li class="nav-item">
-              <a href="#" class="nav-link m-2 menu-item">Portfolio</a>
-          </li>
-          <li class="nav-item">
-              <a href="#" class="nav-link m-2 menu-item nav-active">About</a>
-          </li>
-      </ul>
-  </div>
-</nav>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>About Me</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- NAV BAR-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Melanie Bostwick</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html"
+                >About <span class="sr-only">(current)</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-        
-     
-      
-    </body>
+    <section class="section-background">
+      <aside>
+        <h1>About Me</h1>
+        <hr />
+        <img
+          id="about-me-image"
+          src="./assets/images/about-placeholder-800x800.jpg"
+          alt="sealine with sailboats"
+        />
+        <p>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro aut nisi, pariatur voluptate, eos eligendi quaerat adipisci doloremque labore ab dolore odit nobis unde? Perspiciatis maxime magni soluta nisi ea ipsum tenetur, illo atque! Possimus ex porro asperiores! Rerum eaque voluptates recusandae, aperiam ipsam quae sit doloribus laudantium distinctio dolorum culpa porro nisi reprehenderit minus odio accusantium impedit modi vitae, dolores sint dolore repellendus. Officiis culpa saepe nihil ullam sit!
+        </p>
+        <br />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia
+          facilis sed ipsum saepe totam quibusdam? Consequuntur distinctio rerum
+          dolor quasi.
+        </p>
+      </aside>
+    </section>
+
+    <footer></footer>
+  </body>
 </html>
