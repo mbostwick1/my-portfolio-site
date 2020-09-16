@@ -24,15 +24,17 @@ body {
 
 .row {
   /* Positioning */
-  margin: 40px 40px;
+  margin: auto;
+  padding: 23px;
   display: block;
 }
 
-/* White box */
-.col-sm-8 {
+/* White boxes */
+.article-container,
+.container {
   background: white;
   float: left;
-  margin-bottom: 30px;
+  margin-bottom: 90px;
   padding-top: 30px;
   position: absolute;
 }
@@ -74,6 +76,8 @@ hr {
   font-family: default;
   font-size: 1.3em;
   margin-bottom: 50px;
+  float: right;
+  margin: 10px;
 }
 
 /* Portfolio Images */
@@ -83,6 +87,8 @@ hr {
   height: 350px;
   padding: 30px;
 }
+
+/* Contact */
 
 .form-group {
   padding-left: 40px;
@@ -101,45 +107,6 @@ hr {
 
 .btn:hover {
     background-color: #2B8883;
-}
-
-/* MEDIA QUERIES! */
-
-@media screen and (max-width: 768px) {
-  /* The aside will center at 768 break */
-  .row {
-    /* Positioning */
-    margin: 40px;
-    display: block;
-  }
-
-  .col-sm-8 {
-    position: relative;
-    width: 100%;
-    height: auto;
-  }
-  /* Portfolio Images */
-
-  .port-images {
-    padding: auto;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  /* The aside will center at 400 break */
-
-  .row {
-    /* Box-model */
-    width: 100%;
-    padding: 15px;
-    display: block;
-  }
-
-  .col-sm-8 {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
 }
 
 /* FOOTER */
