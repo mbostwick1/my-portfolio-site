@@ -28,6 +28,7 @@ body {
   background: white;
   float: left;
   padding-top: 30px;
+  position: fixed;
 }
 
 h1,
@@ -109,6 +110,7 @@ hr {
   }
 
   .col-sm-8 {
+    position: relative;
     width: 100%;
     height: auto;
   }
@@ -132,6 +134,7 @@ hr {
   .col-sm-8 {
     width: 100%;
     height: auto;
+    position: relative;
   }
 }
 
