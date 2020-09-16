@@ -62,7 +62,7 @@ hr {
   float: left;
 }
 
-p {
+.about-me-text {
   /* about me text */
   font-family: default;
   font-size: 1.3em;
@@ -95,9 +95,6 @@ p {
 .btn:hover {
     background-color: #2B8883;
 }
-
-
-/* Contact Form */
 
 /*
       These rules take effect when the browser's width
