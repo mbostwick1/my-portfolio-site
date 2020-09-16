@@ -11,113 +11,132 @@
 
 /* Background pattern */
 body {
-    background-image: url("../images/grey-background.jpg");
-    background-repeat: repeat;
-  }
+  background-image: url("../images/grey-background.jpg");
+  background-repeat: repeat;
+}
 
-  /* Pages styling */
+/* Pages styling */
 
-.row{
-    /* Positioning */
-    margin: 40px 40px;
-    display: block;
-  }
-  
-  /* White box */
-  .col-sm-8 {
-    background: white;
-    float: left;
-    padding: 30px;
-  }
-  
-  h1,
-  hr,
-  #about-me-image,
-  p {
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-  
-  h1 {
-    /* typography */
-    font-family: "serif";
-    font-size: 4em;
-    font-weight: 700;
-    color: #4aaaa5;
-  }
-  
-  hr {
-    /* break line in about me */
-    border-style: inset;
-    border-width: 1px;
-    margin-bottom: 20px;
-    color: lightgrey;
-  }
-  
-  #about-me-image {
-    position: relative;
-    /* about me image */
-    width: 300px;
-    height: 300px;
-    float: left;
-  }
-  
-  p {
-    /* about me text */
-    font-family: default;
-    font-size: 1.3em;
-  }
+.row {
+  /* Positioning */
+  margin: 40px 40px;
+  display: block;
+}
 
-  /* Portfolio Images */
+/* White box */
+.col-sm-8 {
+  background: white;
+  float: left;
+  padding-top: 30px;
+}
 
-  .port-images{
-      width: 350px;
-      height: 350px;
-      padding: 30px;
-  }
-  
-  /*
+h1,
+hr,
+#about-me-image,
+p {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+h1 {
+  /* typography */
+  font-family: "serif";
+  font-size: 4em;
+  font-weight: 700;
+  color: #4aaaa5;
+}
+
+hr {
+  /* break line in about me */
+  border-style: inset;
+  border-width: 1px;
+  margin-bottom: 20px;
+  color: lightgrey;
+}
+
+#about-me-image {
+  position: relative;
+  /* about me image */
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+
+p {
+  /* about me text */
+  font-family: default;
+  font-size: 1.3em;
+  margin-bottom: 50px;
+}
+
+/* Portfolio Images */
+
+.port-images {
+  width: 350px;
+  height: 350px;
+  padding: 30px;
+}
+
+.form-group {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* Contact Button Styling */
+.btn {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  background-color: #4aaaa5;
+  border: 0 none;
+  border-radius: 0;
+  padding: 15px 30px;
+}
+
+.btn:hover {
+    background-color: #2B8883;
+}
+
+
+/* Contact Form */
+
+/*
       These rules take effect when the browser's width
       is either 768px or less.
     */
-  @media screen and (max-width: 768px) {
-    /* The aside will center at 768 break */
-    .row {
-      /* Positioning */
-      margin: 40px;
-      display: block;
-    }
-    
-    .col-sm-8 {
-      width: 100%;
-      height: auto;
-    }
- /* Portfolio Images */
+@media screen and (max-width: 768px) {
+  /* The aside will center at 768 break */
+  .row {
+    /* Positioning */
+    margin: 40px;
+    display: block;
+  }
 
- .port-images{
-    
+  .col-sm-8 {
+    width: 100%;
+    height: auto;
+  }
+  /* Portfolio Images */
+
+  .port-images {
     padding: auto;
+  }
 }
 
-    
+@media screen and (max-width: 400px) {
+  /* The aside will center at 400 break */
+
+  .row {
+    /* Box-model */
+    width: 100%;
+    padding: 15px;
+    display: block;
   }
-  
-  @media screen and (max-width: 400px) {
-    /* The aside will center at 400 break */
-  
-    .row{
-      /* Box-model */
-      width: 100%;
-      padding: 15px;
-      display: block;
-    }
-  
-    .col-sm-8 {
-      width: 100%;
-      height: auto;
-    }
-   
-  }  
+
+  .col-sm-8 {
+    width: 100%;
+    height: auto;
+  }
+}
 
 /* FOOTER */
 
