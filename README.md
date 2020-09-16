@@ -1,5 +1,13 @@
 # my-portfolio-site
 
+## Table of Contents
+
+* [Objective](#Objective)
+* [Description](#Description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+
  ## Objective
  
  - To build a portfolio site with an "About Me", "Portfolio", and "Contact" using HTML, CSS, and Bootstrap.
@@ -35,17 +43,17 @@
  
  ## Usage
 
- ![992-index](x_topsite.jpg)
- ![992-portfolio](x_lowersite.jpg)
- ![992-contact](x_lowersite.jpg)
+ ![992-index](screenshots/index-992.jpg)
+ ![992-portfolio](screenshots/ortfolio-992.jpg)
+ ![992-contact](screenshots/contact-992.jpg)
  
- ![768-index](x_topsite.jpg)
- ![768-portfolio](x_lowersite.jpg)
- ![768-contact](x_lowersite.jpg)
+ ![768-index](screenshots/index-768.jpg)
+ ![768-portfolio](screenshots/portfolio-768.jpg)
+ ![768-contact](screenshots/contact-768.jpg)
 
-![400-index](x_topsite.jpg)
-![400-portfolio](x_lowersite.jpg)
-![400-contact](x_lowersite.jpg)
+![400-index](screenshots/index-400.jpg)
+![400-portfolio](screenshots/portfolio-400.jpg)
+![400-contact](screenshots/contact-400.jpg)
 
 
 ## Credits

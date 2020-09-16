@@ -25,17 +25,19 @@ body {
 .row {
   /* Positioning */
   margin: auto;
-  padding: 23px;
-  display: block;
+  padding: 30px;
 }
 
 /* White boxes */
 .article-container,
 .container {
   background: white;
-  float: left;
   margin-bottom: 90px;
   padding-top: 30px;
+
+}
+
+.article-container {
   position: absolute;
 }
 
@@ -107,6 +109,12 @@ hr {
 
 .btn:hover {
     background-color: #2B8883;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
 
 /* FOOTER */
